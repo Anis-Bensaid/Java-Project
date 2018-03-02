@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmlns:di="http://www.eclipse.org/papyrus/0.7.0/sashdi" xmlns:welcome="http://www.eclipse.org/Papyrus/2015/editor/welcome">
+  <di:SashWindowsMngr>
+    <sashModel currentSelection="/0/@sashModel/@windows.0/@children.0" restoreActivePage="true">
+      <windows>
+        <children xsi:type="di:TabFolder" currentSelection="/0/@sashModel/@windows.0/@children.0/@children.0">
+          <children emfPageIdentifier="/2"/>
+        </children>
+      </windows>
+    </sashModel>
+  </di:SashWindowsMngr>
+  <architecture:ArchitectureDescriptionPreferences>
+    <viewpointIds>org.eclipse.papyrus.uml.profile.definition</viewpointIds>
+  </architecture:ArchitectureDescriptionPreferences>
+  <welcome:Welcome>
+    <welcomePage>
+      <section>
+        <identifier>internationalization</identifier>
+      </section>
+      <section>
+        <identifier>general</identifier>
+      </section>
+      <section>
+        <identifier>view-links</identifier>
+      </section>
+      <section>
+        <identifier>diagrams</identifier>
+      </section>
+      <sashColumn x="373">
+        <sashRow y="194"/>
+      </sashColumn>
+      <sashColumn>
+        <sashRow y="194"/>
+      </sashColumn>
+    </welcomePage>
+  </welcome:Welcome>
+</xmi:XMI>

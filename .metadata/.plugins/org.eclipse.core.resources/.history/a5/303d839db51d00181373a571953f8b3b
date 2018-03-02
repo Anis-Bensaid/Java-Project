@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_n59HwB2nEeiD8oe6p0XAsg" name="Group6_Project_IS1220_part1_BenSaid_Boussioux">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_o3lNoB2nEeiD8oe6p0XAsg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_-Rz6kB2nEeiD8oe6p0XAsg" name="myVelib">
+    <packagedElement xmi:type="uml:Class" xmi:id="_AtvKcB2oEeiD8oe6p0XAsg" name="MyVelib">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UmMGIB2pEeiD8oe6p0XAsg" name="station" type="_LK5F0B2oEeiD8oe6p0XAsg" aggregation="composite" association="_UmAf8B2pEeiD8oe6p0XAsg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UmfBEB2pEeiD8oe6p0XAsg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UmfoIB2pEeiD8oe6p0XAsg" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HUJdwB2oEeiD8oe6p0XAsg" name="Ride"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_If0msB2oEeiD8oe6p0XAsg" name="User"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Jfc3sB2oEeiD8oe6p0XAsg" name="Bicycle" visibility="package"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LK5F0B2oEeiD8oe6p0XAsg" name="Station">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_V4mJMB2pEeiD8oe6p0XAsg" name="parkingslot" type="_6hpmMB2oEeiD8oe6p0XAsg" aggregation="composite" association="_V4h3wB2pEeiD8oe6p0XAsg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V4nXUB2pEeiD8oe6p0XAsg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V4olcB2pEeiD8oe6p0XAsg" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6hpmMB2oEeiD8oe6p0XAsg" name="ParkingSlot"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8wj4UB2pEeiD8oe6p0XAsg" name="Card"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UmAf8B2pEeiD8oe6p0XAsg" memberEnd="_UmMGIB2pEeiD8oe6p0XAsg _UmfoIR2pEeiD8oe6p0XAsg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UmKQ8B2pEeiD8oe6p0XAsg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UmK4AB2pEeiD8oe6p0XAsg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UmfoIR2pEeiD8oe6p0XAsg" name="myvelib" type="_AtvKcB2oEeiD8oe6p0XAsg" association="_UmAf8B2pEeiD8oe6p0XAsg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_V4h3wB2pEeiD8oe6p0XAsg" memberEnd="_V4mJMB2pEeiD8oe6p0XAsg _V4pMgB2pEeiD8oe6p0XAsg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V4k7EB2pEeiD8oe6p0XAsg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V4liIB2pEeiD8oe6p0XAsg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V4pMgB2pEeiD8oe6p0XAsg" name="station" type="_LK5F0B2oEeiD8oe6p0XAsg" association="_V4h3wB2pEeiD8oe6p0XAsg"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,6 @@
+package myVelib;
+
+public class Station {
+	private double[2];
+	
+}
