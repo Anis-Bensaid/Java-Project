@@ -4,7 +4,7 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_-Rz6kB2nEeiD8oe6p0XAsg" name="myVelib">
-    <packagedElement xmi:type="uml:Class" xmi:id="_AtvKcB2oEeiD8oe6p0XAsg" name="MyVelib">
+    <packagedElement xmi:type="uml:Class" xmi:id="_AtvKcB2oEeiD8oe6p0XAsg" name="Network">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_UmMGIB2pEeiD8oe6p0XAsg" name="station" type="_LK5F0B2oEeiD8oe6p0XAsg" aggregation="composite" association="_UmAf8B2pEeiD8oe6p0XAsg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UmfBEB2pEeiD8oe6p0XAsg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UmfoIB2pEeiD8oe6p0XAsg" value="1"/>
